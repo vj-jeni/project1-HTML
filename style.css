@@ -1,0 +1,81 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('./images/Background\ House\ Img.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+.brand-name {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 100px;
+    margin-top: 50px;
+    align-items: right;
+
+}
+
+.links {
+    padding-left: 700px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a {
+    margin-left: 65px;
+    color: azure;
+    text-decoration: none;
+
+}
+
+
+h3 {
+    margin-left: 65px;
+    font-weight: bold;
+    font-size: 30px;
+    color: azure;
+}
+
+.web-content {
+    text-align: center;
+    padding-top: 120px;
+    color: beige;
+}
+
+.title {
+    font-size: 100px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.quotes {
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    margin: 0;
+}
+
+button {
+    border-radius: 25px;
+    padding: 5px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin: 10px;
+    background-color: transparent;
+    color: beige;
+    font-weight: bold;
+    border-color:aqua;
+    font-size: 25px;
+}
+
+.button1:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+.button2:hover {
+    background-color: aquamarine;
+    color: black;
+}
